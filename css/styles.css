@@ -638,7 +638,6 @@ ul {
   flex-wrap: wrap;
   flex-direction: column;
   /* align-items: baseline; */
-  border: 1px solid var(--CLOUD, #f60925);
   padding: 96px 16px;
 }
 
@@ -1086,6 +1085,30 @@ ul {
 
   .footer-container {
     padding: 96px 108px;
+    align-items: baseline;
+  }
+
+  .footer-logo-container {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .container-pl {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 72px;
+  }
+
+  .footer-titel {
+    text-align: start;
+  }
+
+  .footer-modal {
+    margin-top: 0;
+  }
+
+  .footer-modal-text {
+    text-align: start;
   }
 }
 
@@ -1191,5 +1214,25 @@ ul {
 
   .portfolio-list {
     gap: 48px 24px;
+  }
+
+  /*-------------footer--------------*/
+
+  .footer-container {
+    padding: 100px 15px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  .footer-logo-container {
+    margin-right: 120px;
+  }
+
+  .footer-modal {
+    margin-left: 80px;
+  }
+
+  .footer-modal-form {
+    flex-wrap: nowrap;
   }
 }
