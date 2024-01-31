@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-navigation">
           <a class="header-logo" href="./index.html"
@@ -54,9 +54,100 @@
             </li>
           </ul>
         </address>
+        <button class="header-menu-btn" type="button">
+          <svg width="24" height="24" class="icon-header-menu">
+            <use href="./images/icons.svg#icon-group"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mob-menu">
+        <div>
+          <button type="button" class="mob-close-btn">
+            <svg width="8" height="8" class="icon-close-btn">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <ul class="mob-list">
+            <li class="mob-item">
+              <a class="mob-menu-link" href="./index.html">Studio</a>
+            </li>
+            <li class="mob-item">
+              <a class="mob-menu-link" href="">Portfolio</a>
+            </li>
+            <li class="mob-item">
+              <a class="mob-menu-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <address class="mob-address">
+            <ul class="mob-link">
+              <li class="mob-link-menu">
+                <a class="mob-list-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mob-link-menu">
+                <a class="mob-list-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-soc-list">
+            <li class="mob-list-soc">
+              <a
+                class="mob-link-soc"
+                href=""
+                target="_blank"
+                rel="no-referrer noopener"
+              >
+                <svg width="24" height="24" class="mob-icon">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-list-soc">
+              <a
+                class="mob-link-soc"
+                href=""
+                target="_blank"
+                rel="no-referrer noopener"
+              >
+                <svg width="24" height="24" class="mob-icon">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-list-soc">
+              <a
+                class="mob-link-soc"
+                href=""
+                target="_blank"
+                rel="no-referrer noopener"
+              >
+                <svg width="24" height="24" class="mob-icon">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-list-soc">
+              <a
+                class="mob-link-soc"
+                href=""
+                target="_blank"
+                rel="no-referrer noopener"
+              >
+                <svg width="24" height="24" class="mob-icon">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
-    <main class="main"> -->
+    <main class="main">
       <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-titel">Effective Solutions for Your Business</h1>
@@ -124,6 +215,7 @@
           <ul class="team-card-list">
             <li class="team-card-item">
               <img
+                srcset="./images/img-4.jpg 1x, ./images/img-mark-2x.jpg 2x"
                 src="./images/img-4.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -186,6 +278,7 @@
             </li>
             <li class="team-card-item">
               <img
+                srcset="./images/img-1.jpg 1x, ./images/img-tom-2x.jpg 2x"
                 src="./images/img-1.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -248,6 +341,7 @@
             </li>
             <li class="team-card-item">
               <img
+                srcset="./images/img-2.jpg 1x, ./images/img-сamila-2x.jpg 2x"
                 src="./images/img-2.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -310,6 +404,7 @@
             </li>
             <li class="team-card-item">
               <img
+                srcset="./images/img-3.jpg 1x, ./images/img-daniel-2x.jpg 2x"
                 src="./images/img-3.jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -380,6 +475,7 @@
             <li class="portfolio-item">
               <div class="portfolio-list-container">
                 <img
+                  srcset="./images/img-5.jpg 1x, ./images/img-banking-2x.jpg 2x"
                   src="./images/img-5.jpg"
                   alt="Banking App"
                   width="360"
@@ -400,6 +496,10 @@
             <li class="portfolio-item">
               <div class="portfolio-list-container">
                 <img
+                  srcset="
+                    ./images/img-6.jpg           1x,
+                    ./images/img-cashless-2x.jpg 2x
+                  "
                   src="./images/img-6.jpg"
                   alt="Cashless Payment"
                   width="360"
@@ -420,6 +520,10 @@
             <li class="portfolio-item">
               <div class="portfolio-list-container">
                 <img
+                  srcset="
+                    ./images/img-7.jpg             1x,
+                    ./images/img-meditation-2x.jpg 2x
+                  "
                   src="./images/img-7.jpg"
                   alt="Meditation App"
                   width="360"
@@ -440,6 +544,7 @@
             <li class="portfolio-item">
               <div class="portfolio-list-container">
                 <img
+                  srcset="./images/img-8.jpg 1x, ./images/img-taxi-2x.jpg 2x"
                   src="./images/img-8.jpg"
                   alt="Taxi Service"
                   width="360"
@@ -460,6 +565,7 @@
             <li class="portfolio-item">
               <div class="portfolio-list-container">
                 <img
+                  srcset="./images/img-9.jpg 1x, ./images/img-screen-2x.jpg 2x"
                   src="./images/img-9.jpg"
                   alt="Screen Illustrations"
                   width="360"
@@ -480,6 +586,7 @@
             <li class="portfolio-item">
               <div class="portfolio-list-container">
                 <img
+                  srcset="./images/img-10.jpg 1x, ./images/img-online-2x.jpg 2x"
                   src="./images/img-10.jpg"
                   alt="Online Courses"
                   width="360"
@@ -501,7 +608,7 @@
         </div>
       </section>
     </main>
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container footer-container">
         <div class="footer-logo-container">
           <a class="footer-logo" href="./index.html"
@@ -585,7 +692,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
     <!-- <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close-btn">
