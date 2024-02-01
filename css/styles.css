@@ -792,10 +792,13 @@ ul {
 }
 
 .modal {
-  width: 408px;
-  min-height: 584px;
+  /* width: 408px;
+  min-height: 584px; */
+  width: 288px;
+  min-height: 623px;
   flex-shrink: 0;
-  padding: 72px 24px 24px 24px;
+  /* padding: 72px 24px 24px 24px; */
+  padding: 72px 24px 16px 16px;
   border-radius: 4px;
   background: var(--DAIRY, #fcfcfc);
 
@@ -972,7 +975,7 @@ ul {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  margin-left: 8px;
+  margin-right: 8px;
   fill: transparent;
   stroke: transparent;
   background-color: #e7e9fc;
@@ -986,6 +989,8 @@ ul {
   border: none;
   fill: #f4f4fd;
 }
+
+/*-----------------------------------------*/
 
 @media screen and (min-width: 768px) {
   .container {
@@ -1013,6 +1018,10 @@ ul {
   }
 
   .header-menu-btn {
+    display: none;
+  }
+
+  .mob-menu {
     display: none;
   }
 
@@ -1109,6 +1118,12 @@ ul {
 
   .footer-modal-text {
     text-align: start;
+  }
+
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
   }
 }
 
