@@ -282,7 +282,7 @@ ul {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/dark-bg-mob.jpg);
+    url(../images/bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -297,7 +297,7 @@ ul {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/dark-bg-mobil.jpg);
+      url(../images/bg-mobil.jpg);
   }
 }
 
@@ -1021,7 +1021,7 @@ ul {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/dark-bg.jpg);
+      url(../images/bg.jpg);
   }
 
   @media screen and (min-devise-pixel-ratio: 2),
@@ -1032,7 +1032,7 @@ ul {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/dark-bg-pl.jpg);
+        url(../images/bg-pl.jpg);
     }
   }
 
